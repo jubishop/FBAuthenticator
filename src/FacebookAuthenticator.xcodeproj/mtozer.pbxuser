@@ -1,0 +1,54 @@
+// !$*UTF8*$!
+{
+	5FD4DAD01565AC6000E46FD8 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 5FD4DAD91565AC6000E46FD8 /* FacebookAuthenticator */;
+		codeSenseManager = B80C41AF1565C90100C78533 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 358992127;
+			PBXWorkspaceStateSaveDate = 358992127;
+		};
+		sourceControlManager = B80C41AE1565C90100C78533 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5FD4DAD91565AC6000E46FD8 /* FacebookAuthenticator */ = {
+		activeExec = 0;
+	};
+	B80C41AE1565C90100C78533 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B80C41AF1565C90100C78533 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

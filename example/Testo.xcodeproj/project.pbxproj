@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F81B84915664FE300FE49C8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F81B84815664FE300FE49C8 /* Cocoa.framework */; };
+		5F81B85315664FE300FE49C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F81B85115664FE300FE49C8 /* InfoPlist.strings */; };
+		5F81B85515664FE300FE49C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81B85415664FE300FE49C8 /* main.m */; };
+		5F81B85915664FE300FE49C8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5F81B85715664FE300FE49C8 /* Credits.rtf */; };
+		5F81B85C15664FE300FE49C8 /* TestoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81B85B15664FE300FE49C8 /* TestoAppDelegate.m */; };
+		5F81B85F15664FE300FE49C8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F81B85D15664FE300FE49C8 /* MainMenu.xib */; };
+		5F81B86615664FF800FE49C8 /* FacebookAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F81B86515664FF800FE49C8 /* FacebookAuthenticator.framework */; };
+		5F81B8681566505000FE49C8 /* FacebookAuthenticator.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F81B86515664FF800FE49C8 /* FacebookAuthenticator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F81B8671566504A00FE49C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				5F81B8681566505000FE49C8 /* FacebookAuthenticator.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F81B84415664FE300FE49C8 /* Testo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F81B84815664FE300FE49C8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5F81B84B15664FE300FE49C8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5F81B84C15664FE300FE49C8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5F81B84D15664FE300FE49C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F81B85015664FE300FE49C8 /* Testo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Testo-Info.plist"; sourceTree = "<group>"; };
+		5F81B85215664FE300FE49C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F81B85415664FE300FE49C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F81B85615664FE300FE49C8 /* Testo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Testo-Prefix.pch"; sourceTree = "<group>"; };
+		5F81B85815664FE300FE49C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5F81B85A15664FE300FE49C8 /* TestoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestoAppDelegate.h; sourceTree = "<group>"; };
+		5F81B85B15664FE300FE49C8 /* TestoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestoAppDelegate.m; sourceTree = "<group>"; };
+		5F81B85E15664FE300FE49C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F81B86515664FF800FE49C8 /* FacebookAuthenticator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookAuthenticator.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F81B84115664FE300FE49C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F81B84915664FE300FE49C8 /* Cocoa.framework in Frameworks */,
+				5F81B86615664FF800FE49C8 /* FacebookAuthenticator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F81B83915664FE300FE49C8 = {
+			isa = PBXGroup;
+			children = (
+				5F81B84E15664FE300FE49C8 /* Testo */,
+				5F81B84715664FE300FE49C8 /* Frameworks */,
+				5F81B84515664FE300FE49C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F81B84515664FE300FE49C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F81B84415664FE300FE49C8 /* Testo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F81B84715664FE300FE49C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F81B84815664FE300FE49C8 /* Cocoa.framework */,
+				5F81B84A15664FE300FE49C8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F81B84A15664FE300FE49C8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F81B86515664FF800FE49C8 /* FacebookAuthenticator.framework */,
+				5F81B84B15664FE300FE49C8 /* AppKit.framework */,
+				5F81B84C15664FE300FE49C8 /* CoreData.framework */,
+				5F81B84D15664FE300FE49C8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5F81B84E15664FE300FE49C8 /* Testo */ = {
+			isa = PBXGroup;
+			children = (
+				5F81B85A15664FE300FE49C8 /* TestoAppDelegate.h */,
+				5F81B85B15664FE300FE49C8 /* TestoAppDelegate.m */,
+				5F81B85D15664FE300FE49C8 /* MainMenu.xib */,
+				5F81B84F15664FE300FE49C8 /* Supporting Files */,
+			);
+			path = Testo;
+			sourceTree = "<group>";
+		};
+		5F81B84F15664FE300FE49C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F81B85015664FE300FE49C8 /* Testo-Info.plist */,
+				5F81B85115664FE300FE49C8 /* InfoPlist.strings */,
+				5F81B85415664FE300FE49C8 /* main.m */,
+				5F81B85615664FE300FE49C8 /* Testo-Prefix.pch */,
+				5F81B85715664FE300FE49C8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F81B84315664FE300FE49C8 /* Testo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F81B86215664FE300FE49C8 /* Build configuration list for PBXNativeTarget "Testo" */;
+			buildPhases = (
+				5F81B84015664FE300FE49C8 /* Sources */,
+				5F81B84115664FE300FE49C8 /* Frameworks */,
+				5F81B84215664FE300FE49C8 /* Resources */,
+				5F81B8671566504A00FE49C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testo;
+			productName = Testo;
+			productReference = 5F81B84415664FE300FE49C8 /* Testo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F81B83B15664FE300FE49C8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5F81B83E15664FE300FE49C8 /* Build configuration list for PBXProject "Testo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F81B83915664FE300FE49C8;
+			productRefGroup = 5F81B84515664FE300FE49C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F81B84315664FE300FE49C8 /* Testo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F81B84215664FE300FE49C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F81B85315664FE300FE49C8 /* InfoPlist.strings in Resources */,
+				5F81B85915664FE300FE49C8 /* Credits.rtf in Resources */,
+				5F81B85F15664FE300FE49C8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F81B84015664FE300FE49C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F81B85515664FE300FE49C8 /* main.m in Sources */,
+				5F81B85C15664FE300FE49C8 /* TestoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F81B85115664FE300FE49C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F81B85215664FE300FE49C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F81B85715664FE300FE49C8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F81B85815664FE300FE49C8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5F81B85D15664FE300FE49C8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F81B85E15664FE300FE49C8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F81B86015664FE300FE49C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F81B86115664FE300FE49C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F81B86315664FE300FE49C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testo/Testo-Prefix.pch";
+				INFOPLIST_FILE = "Testo/Testo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F81B86415664FE300FE49C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testo/Testo-Prefix.pch";
+				INFOPLIST_FILE = "Testo/Testo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F81B83E15664FE300FE49C8 /* Build configuration list for PBXProject "Testo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F81B86015664FE300FE49C8 /* Debug */,
+				5F81B86115664FE300FE49C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F81B86215664FE300FE49C8 /* Build configuration list for PBXNativeTarget "Testo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F81B86315664FE300FE49C8 /* Debug */,
+				5F81B86415664FE300FE49C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F81B83B15664FE300FE49C8 /* Project object */;
+}
