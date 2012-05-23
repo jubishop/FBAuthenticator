@@ -1,7 +1,7 @@
 FBAuthenticator
 ===============
 
-Library for getting user to authenticate a facebook app and return an access token.
+Obj-C/Cocoa library for getting user to authenticate a facebook app and return an access token.
 
 * src/ : Source code
 * framework/ : .framework file
