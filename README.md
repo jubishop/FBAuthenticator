@@ -11,6 +11,6 @@ How to install:
 
 1) Drag framework onto project explorer of your app, check to copy file into destination.
 
-2) Add framework to the Copy Files build step for your app.
+2) Add framework to the Copy Bundle Resources build phase for your app.
 
 3) See source in TestoAppDelegate.m in example/ for example usage in code.
